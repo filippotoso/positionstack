@@ -1,0 +1,30 @@
+{
+    "name": "filippo-toso/positionstack",
+    "description": "A simple Laravel library to execute queries to positionstack.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FilippoToso\\PositionStack\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FilippoToso\\PositionStack\\ServiceProvider"
+            ],
+            "aliases": {
+                "PositionStack": "FilippoToso\\PositionStack\\Facade"
+            }
+        }
+    }
+}
