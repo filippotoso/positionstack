@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Facade as BaseFacade;
  * @method static array forward($query, array $options = [])
  * @method static array reverse($query, array $options = [])
  *
- * @see \Illuminate\Hashing\HashManager
+ * @see \FilippoToso\PositionStack\Client
  */
 class PositionStack extends BaseFacade
 {
